@@ -1,0 +1,7 @@
+{
+  "apiEndpoint": "https://slices-test-gatsby.prismic.io/api/v2",
+  "libraries": [
+    "@/src/slices"
+  ],
+  "_latest": "0.4.2"
+}

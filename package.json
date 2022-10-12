@@ -1,0 +1,39 @@
+{
+  "name": "prismic-and-gatsby-slices-demo-site",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Michal Piechowiak",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "ENABLE_GATSBY_REFRESH_ENDPOINT=true gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "postinstall": "patch-package",
+    "slicemachine": "start-slicemachine"
+  },
+  "dependencies": {
+    "@prismicio/client": "^6.7.0",
+    "@prismicio/helpers": "^2.3.3",
+    "@prismicio/react": "^2.5.0",
+    "gatsby": "4.22.0-next.1",
+    "gatsby-plugin-gatsby-cloud": "^4.18.1",
+    "gatsby-plugin-image": "^2.21.0",
+    "gatsby-plugin-sharp": "^4.21.0",
+    "gatsby-source-filesystem": "^4.21.1",
+    "gatsby-source-prismic": "^5.2.9",
+    "patch-package": "^6.4.7",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "slug": "2.1.1"
+  },
+  "resolutions": {
+    "lmdb": "2.5.2"
+  },
+  "devDependencies": {
+    "slice-machine-ui": "^0.4.2"
+  }
+}

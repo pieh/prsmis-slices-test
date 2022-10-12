@@ -1,0 +1,24 @@
+{
+  "src/slices": {
+    "TextBlock": {
+      "default": {
+        "primary": {
+          "body": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Slug": {
+      "default": {
+        "primary": {}
+      }
+    }
+  },
+  "_cts": {
+    "page": {}
+  }
+}
